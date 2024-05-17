@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<h2>Using a Full URL File Path</h2>
+<img src="https://images.csmonitor.com/csm/2023/02/1151646_1_root_standard.jpg?alias=standard_900x600nc" alt="Root">
+
+
+<h2>Using a Relative File Path</h2>
+
+
+<p>In the following example, the file path points to a file in the image located at the root of the current web</p>
+
+<img src="root.jpg" width=300 alt="Root">
+
+<p>In the following example, the file path points to a file in the images folder located in the folder one level up from the current folder<p/>
+
+<img src="images/branch.jpeg" width=300 alt="Branch">
+
+<p>And, how to display root/images/images/quiz.jpeg</p> 
+
+<img src="images/images/quiz.jpeg" width=300 alt="quiz">
+
+<p>
+<img src="../images/images/quiz.jpeg" width=300 alt="quiz">
+
+</body>
+</html>
+
